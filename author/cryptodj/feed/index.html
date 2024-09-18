@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CryptoDJ | Bitcoin Gold</title>
+	<atom:link href="index.html" rel="self" type="application/rss+xml" />
+	<link>https://btgofficial.org</link>
+	<description>Make Bitcoin decentralized again</description>
+	<lastBuildDate>Wed, 23 Sep 2020 21:10:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.14</generator>
+
+<image>
+	<url>https://btgofficial.org/wp-content/uploads/cropped-fav-icon-1-32x32.png</url>
+	<title>CryptoDJ | Bitcoin Gold</title>
+	<link>https://btgofficial.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Emergency update 0.17.2</title>
+		<link>https://btgofficial.org/emergency-update-0-17-2/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Fri, 10 Jul 2020 20:33:46 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Press Release]]></category>
+		<category><![CDATA[Technical]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=40855</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="../../../downloads/index.html">DOWNLOADS</a>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p><b>CRITICAL MESSAGE FROM BTG TEAM TO ALL POOLS, EXCHANGES, WALLETS, SERVICES, AND COMMUNITY RUNNING NODES</b></p>
+<p>&nbsp;</p>
+<p><b>Please immediately upgrade your BTG Core full nodes to version 0.17.2, published July 2, 2020.</b></p>
+<p><span style="color: #662525;"><strong>UPDATE: if you did not upgrade prior to July 10 at 14:00 UTC, you will also want to perform the command:</strong></span><b><br /></b><span style="color: #662525;"><strong>invalidateblock 00000000635620f22ba8694aea532d51619f8cd060f4e42e85db3cb3a5d1c29c</strong></span><b><br /></b></p>
+<p>&nbsp;</p>
+<p><b>HOW TO UPGRADE:</b><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">1. You can use the <a href="https://github.com/BTCGPU/BTCGPU/releases/tag/v0.17.2"><b>pre-compiled binaries on Github</b></a>, <a href="https://github.com/BTCGPU/BTCGPU/releases/tag/v0.17.2">https://github.com/BTCGPU/BTCGPU/releases/tag/v0.17.2</a>, or use the DOWNLOADS link you see above. Simply shut down your node, install the latest version, and start back up.<br /></span></p>
+<p><span style="font-weight: 400;">2. Manually upgrade from the latest code on the BTCGPU Github </span><a href="https://github.com/BTCGPU/BTCGPU/releases/tag/v0.17.2"><b>v0.17.2 tag</b></a><span style="font-weight: 400;"> (on 0.17 / master branch); full </span><a href="https://github.com/BTCGPU/BTCGPU/wiki/Release-Notes-v0.17.1"><span style="font-weight: 400;">release notes here</span></a><span style="font-weight: 400;">. If you are still at v0.15.2 and haven’t upgraded to 0.17, we have a backport version </span><a href="https://github.com/BTCGPU/BTCGPU/releases/tag/v0.15.3"><b>v0.15.3 tag</b></a><span style="font-weight: 400;"> (on 0.15 branch) including the same changes so you can keep your current configuration files.</span></p>
+<p> <span style="font-size: 15px;">(Note: there were potentially breaking changes in the configuration file between v0.15 and v0.17*</span><span style="font-size: 15px;">)</span></p>
+<p>&nbsp;</p>
+<p><b>You can run this command in the console or bgold-cli to ensure you are immediately on the honest chain:<br /></b><b><br /></b><span style="color: #662525;"><b>invalidateblock 00000000635620f22ba8694aea532d51619f8cd060f4e42e85db3cb3a5d1c29c</b></span></p>
+<p><b style="font-size: 15px;">Note: a strong majority of the honest mining pools have already upgraded their code a week ago, and continue to mine on the honest chain.</b></p>
+<p><span style="font-size: 15px;">The BTG Explorer at </span><a href="https://explorer.btgofficial.org/" style="font-size: 15px;">https://explorer.btgofficial.org/</a><span style="font-size: 15px;"> is on the honest chain. You can compare your most recent blockhash with the explorer to ensure you are on the honest chain.</span></p>
+<p><b>To ask your node for the latest blockhash, give it the command: </b></p>
+<p> <b style="font-size: 15px;">getbestblockhash</b><span style="font-size: 15px;"> </span></p>
+<p><span style="font-size: 15px;">And compare it to the latest block on the BTG Explorer at </span><a href="https://explorer.btgofficial.org/" style="font-size: 15px;">https://explorer.btgofficial.org/</a><b></b></p>
+<p>&nbsp;</p>
+<p><b>====== EMERGENCY INFORMATION ======</b></p>
+<p><b style="font-size: 15px;">We have just seen an extremely long attack chain of over 1300 blocks on July 10, 2020, against the BTG network which have been mined since July 1, 2020.</b></p>
+<p><span style="font-weight: 400;">We detected this illicit activity early on and sent alerts to pools and exchanges to protect them; many closed their wallets over a week ago. We also supplied them with BTG version 0.17.2, which included a checkpoint at block 640650, hash 000000059ec8884fa4fbbdbe46c09cfb4ecba281dfa2351a05084e817c1200ae from July 2 at 2am UTC, mined by MiningPoolHub, a known honest block.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">With this block checkpointed, the attacker’s chain could not take over, but this information was not public, and the attacker continued to mine. The attacker mined their secret chain for nearly 10 days, renting power from NiceHash to do so. Today, on July 10, the attacker released over 1300 blocks.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Because those attacking blocks are anchored at a block mined on July 1st (before the checkpoint), the honest pools and exchanges who are running the updated code automatically rejected the attacker’s chain.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">It’s time for everyone else to upgrade their nodes to make sure they stay on the honest chain and to push your node onto the honest chain by using the simple command:</span></p>
+<p><b style="font-size: 15px;">invalidateblock 00000000635620f22ba8694aea532d51619f8cd060f4e42e85db3cb3a5d1c29c</b></p>
+<p> <span style="font-size: 15px;">If you use the Bitcoin Gold GUI, you can enter this command in the Debug Console. If you use the command line daemon, simply give this command to bgold-cli:</span></p>
+<p><b>bgold-cli</b> <b>invalidateblock 00000000635620f22ba8694aea532d51619f8cd060f4e42e85db3cb3a5d1c29c</b></p>
+<p> <span style="font-size: 15px;">This tells your node that the attacker’s version of the block at height 640650 invalid, and your node will immediately switch back to the honest version of the chain (perhaps after a short recalculation delay.)</span></p>
+<p> <span style="font-size: 15px;">The majority of honest pool hashpower continues to mine on the honest chain.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Questions can be addressed to the BTG team:</span><span style="font-weight: 400;"><br /></span><a href="https://discord.gg/HmVUU6S"><span style="font-weight: 400;">https://discord.gg/HmVUU6S</span></a></p>
+<p><a href="https://t.me/BitcoinGoldHQ"><span style="font-weight: 400;">https://t.me/BitcoinGoldHQ</span></a></p>
+<p>&nbsp;</p>
+<p><b>=====================</b><b><br /></b><b><br /></b><b>Attack chain details:</b></p>
+<p><b style="font-size: 15px;">The attacking chain includes this block at height 640650:</b></p>
+<p><b>00000000635620f22ba8694aea532d51619f8cd060f4e42e85db3cb3a5d1c29c</b></p>
+<p>&nbsp;</p>
+<p><b style="font-size: 15px;">The honest block checkpointed in version 0.17.2 at height 640650:</b></p>
+<p><b>000000059ec8884fa4fbbdbe46c09cfb4ecba281dfa2351a05084e817c1200ae</b></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">The attacker’s mining coinbase address was:</span><span style="font-weight: 400;"><br /></span><a href="https://explorer.btgofficial.org/insight/address/GcxCUDhfB7RwfScd96J24mKYPounRbVUq2"><span style="font-weight: 400;">GcxCUDhfB7RwfScd96J24mKYPounRbVUq2</span></a></p>
+<p><span style="font-size: 15px;">Their common ancestor, valid on both chains, is block 640568, hash </span><b style="font-size: 15px;">00000001ca8ac90d83f6f5da01ac96b7a017702a040953b93cda2e52b07385cd, </b><a href="https://explorer.btgofficial.org/insight/block/00000001ca8ac90d83f6f5da01ac96b7a017702a040953b93cda2e52b07385cd" style="font-size: 15px;">https://explorer.btgofficial.org/insight/block/00000001ca8ac90d83f6f5da01ac96b7a017702a040953b93cda2e52b07385cd</a></p>
+<p><span style="font-size: 15px;">The honest chained mined publicly, mining this block 640569 on July 1st:</span></p>
+<p><span style="font-weight: 400;"><a href="https://explorer.btgofficial.org/insight/block/000000027cd13938b688121c272c523497f898bcc743f2793b3eaeaa7abd751a">https://explorer.btgofficial.org/insight/block/000000027cd13938b688121c272c523497f898bcc743f2793b3eaeaa7abd751a</a></span><span style="font-size: 15px;"> </span></p>
+<p><span style="font-weight: 400;">The attacker mined secretly and withheld their block 640569 until July 10th, even though it was mined July 1st:</span><span style="font-weight: 400;"><br /></span><a href="https://explorer.btgofficial.org/insight/block/000000047bd388dd484d9fdadece6b71aa13fa987bd2a283b68b9a2968465eac"><span style="font-weight: 400;">https://explorer.btgofficial.org/insight/block/000000047bd388dd484d9fdadece6b71aa13fa987bd2a283b68b9a2968465eac</span></a></p>
+<p><span style="font-size: 15px;">If you have previously updated to BTG Core 0.17.2, you will still be on the honest chain, along with the major mining pools and exchanges.</span></p>
+<p><b>If you have not yet updated and cannot update at this time, run the invalidateblock command as noted above to discard the attacker’s chain and put your node on the honest chain.</b></p>
+<p><b></b></p>
+<p><b>Want to comment? Join the <a href="https://forum.btgofficial.org/t/emergency-update-0-17-2/4698">Discourse here</a>!<br /></b></p>
+<p> _____________________________________________</p>
+<p><span style="font-size: small;">*These changes are aligned with the changes in Bitcoin Core v0.16 and v0.17 and include deprecated RPC commands which are now disabled by default, as well as the introduction of “sections” for testnet and regtest. If you must use deprecated RPCs that are now disabled, you can re-enable them in your config file with the appropriate deprecatedrpc flags. Commands that are not in a section for [test] or [regtest] will only apply to mainnet; see <a href="https://github.com/BTCGPU/BTCGPU/wiki/Release-Notes-v0.17.1#configuration-sections-for-testnet-and-regtest">ReleaseNotes</a>. If you use no deprecated commands and use your config file only for mainnet, there should be no breaking changes.</span></p>
+<p>&nbsp;</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to Mine Bitcoin Gold on a Pool</title>
+		<link>https://btgofficial.org/mine-bitcoin-gold-pool/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Mon, 13 Nov 2017 13:04:33 +0000</pubDate>
+				<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=989</guid>
+
+					<description><![CDATA[Hello everybody! One of the most asked questions is, &#8220;how can I mine Bitcoin Gold?&#8221; &#8230; so we are making a step-by-step tutorial. You can choose a pool to mine from Bitcoin Gold main page under the ecosystem tab (Tap here to show ecosystem). For the next steps we will assume that you have chosen [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>Hello everybody!</em></p>
+<p><em>One of the most asked questions is, &#8220;how can I mine Bitcoin Gold?&#8221; &#8230; so we are making a step-by-step tutorial.</em></p>
+<ol>
+<li>You can choose a pool to mine from Bitcoin Gold main page under the ecosystem tab (<a href="../../../index.html#ecosystem">Tap here to show ecosystem</a>).</li>
+<li>For the next steps we will assume that you have chosen <a href="http://pool.gold/">pool.gold</a>.</li>
+<li>Download mining software:
+<ol>
+<li>For NVIDIA &#8211; <a href="https://github.com/poolgold/ewbf-miner-btg-edition/releases">Download</a></li>
+<li>For Radeon &#8211; <a href="https://github.com/poolgold/ClaymoreBTGMiner/releases">Download</a> (note that Chrome may report this archive as dangerous, we have scanned it on 3 different platforms and no issues were found, only Chrome is reporting a false positive)</li>
+</ol>
+</li>
+<li>Get a wallet address if you don&#8217;t have one &#8211; you can use <a href="https://btgwallet.online/">BTGWallet.online</a> (keep all the keys saved to be able to make transactions later), <a href="https://coinomi.com/">Coinomi</a>, <a href="https://github.com/BTCGPU/BTCGPU">Bitcoin Gold Core Wallet</a> or any wallet made by an Exchange.</li>
+<li>Edit the configurations
+<ol>
+<li>For NVIDIA: edit start.bat file and input you BTG wallet address and then the worker name. An example line start:
+<div>
+<div>miner &#8211;server eu.pool.gold &#8211;user GSrP5KGxrgBXV1kQkAPy2g3fmgcUeoESMw.MyWorker1 &#8211;pass x &#8211;port 3044</div>
+</div>
+</li>
+<li>For Radeon: edit config.txt and input your BTG wallet address and then the worker name. An example :<br />
+-zpool eu.pool.gold:3044<br />
+-zwal GSrP5KGxrgBXV1kQkAPy2g3fmgcUeoESMw.worker<br />
+-zpsw z<br />
+-ftime 1<br />
+-i 6<br />
+-tt 75<br />
+-allpools 1</li>
+</ol>
+</li>
+<li>Start the mining: Double click start.bat and let the magic happens.</li>
+</ol>
+<p>&nbsp;</p>
+<p><em>Happy and profitable mining!</em></p>
+<p>&nbsp;</p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Launch &#8211; 12th November 2017 (19:00 UTC)</title>
+		<link>https://btgofficial.org/bitcoin-gold-launch/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Thu, 09 Nov 2017 16:57:03 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=837</guid>
+
+					<description><![CDATA[Hello miners and users! We’re thrilled to announce a start date to the community: November 12, 2017 &#8211; 7:00 PM (19:00 UTC) At this point, we will provide the Bitcoin Gold full node client download on our website. The BTG blockchain will officially be live, with blocks mined openly by users and pools from all [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em><span style="font-weight: 400;">Hello miners and users!</span></em></p>
+<p><em><span style="font-weight: 400;">We’re thrilled to announce a start date to the community:</span></em></p>
+<h2 style="text-align: center;"><em><b>November 12, 2017 &#8211; 7:00 PM (</b></em><em><b>19:00 UTC)</b></em></h2>
+<p>At this point, we will provide the Bitcoin Gold full node client download on our website. The BTG blockchain will officially be live, with blocks mined openly by users and pools from all around the world.</p>
+<p><span style="font-weight: 400;">Wallets and exchanges will be able to process deposits, withdrawals and trades (as soon as they are ready). </span><span style="font-weight: 400;">This is the culmination of months of hard work, which have led to many changes and improvements, including:</span><span style="font-weight: 400;"><br />
+</span></p>
+<ul>
+<li><strong><a href="https://github.com/BTCGPU/BTCGPU/pull/15">Equihash PoW change</a></strong></li>
+<li><span style="font-weight: 400;">Implementation of full <a href="https://github.com/BTCGPU/BTCGPU/pull/109"><strong>Replay Protection</strong></a> (BIP143 SIGHASH) </span><span style="font-weight: 400;">(protecting the community from attacks)</span></li>
+<li><span style="font-weight: 400;">Implementation of a <strong><a href="https://github.com/BTCGPU/BTCGPU/pull/80">Unique &#8220;G&#8221; and &#8220;A&#8221; prefixed Address Format</a> </strong></span><span style="font-weight: 400;">(avoiding accidental coin transactions to incorrect destinations)</span></li>
+<li><span style="font-weight: 400;">Refinement of the <a href="https://github.com/BTCGPU/BTCGPU/pull/151"><strong>per-block difficulty </strong></a> adjustment algorithm </span><span style="font-weight: 400;">(to better respond to dynamic changes in hashing power)</span></li>
+<li><span style="font-weight: 400;">The usual minor tweaks, bug fixes, and <strong>improvements</strong></span></li>
+<li><span style="font-weight: 400;">Successful mining on several generations of<strong> <a href="http://btgblocks.com/testnet/">Public Testnet</a></strong></span></li>
+<li>Network &amp; pool integration</li>
+</ul>
+<p><span style="font-weight: 400;">We are extremely grateful for the community around the world who have been contributing hash power to our testnets; besides patiently testing their own mining process, they allow exchanges, pools, wallet developers, and all other service operators to implement and test their support of BTG so that the Bitcoin Gold community can have a full suite of services at launch time. Thank you to all those who have donated their hash power to this effort! </span><span style="font-weight: 400;">We’d also like to extend our gratitude to all those service providers who have been working so hard with us to prepare a fully functional </span><strong><a href="../../../index.html#ecosystem">ecosystem </a></strong><span style="font-weight: 400;">at launch. </span></p>
+<p>The results are living proof that a friendly fork can lead to healthy, organic growth of a new crypto community.</p>
+<p><span style="font-weight: 400;">The team is now redoubling efforts in the following areas:</span><span style="font-weight: 400;"><br />
+</span></p>
+<ul>
+<li>Improving our documentation so that accurate, up-to-date info is easily accessible for mining</li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Assisting providers of services (exchanges, wallets) to integrate BTG &#8211; <a href="https://goo.gl/1k2Dtj"><strong>Full technical info</strong></a></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Assisting press and social media communities with access to information and services coming soon (official wallet and mining guide, official community forum, etc.)</span></li>
+</ul>
+<p><em>We know that many of you share our happiness and joy as we mark this exciting moment. </em></p>
+<p><strong><em>#1CPU1VOTE</em></strong></p>
+<p><em><span style="font-weight: 400;">With best wishes.</span></em></p>
+<p><strong><em>Bitcoin Gold Community</em></strong></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Update &#8211; Testnet Participation Launch</title>
+		<link>https://btgofficial.org/bitcoin-gold-daily-update-testnet-participation-launch/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Sun, 05 Nov 2017 04:56:55 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technical]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=675</guid>
+
+					<description><![CDATA[Hello everyone!  We take the opportunity of this update to inform you of the latest news of BTG network tests and to invite all of the miners that are planning to participate in this project to test their machines in the Bitcoin Gold test blockchain. The Bitcoin Gold testnet is proving the stability and security [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>Hello everyone! </em></p>
+<p><em>We take the opportunity of this update to inform you of the latest news of BTG network tests and to invite all of the miners that are planning to participate in this project to test their machines in the Bitcoin Gold test blockchain.</em></p>
+<p><span style="font-weight: 400;">The Bitcoin Gold testnet is proving the stability and security of the network, including the new difficulty adjustment algorithm and two-way replay protection, and is helping wallets, pools, and application developers to integrate BTG and fully <strong>prepare for the imminent mainnet launch</strong>.</span></p>
+<p>&nbsp;</p>
+<h4><strong>What’s a testnet?</strong></h4>
+<p><span style="font-weight: 400;">A testnet is a temporary blockchain used for testing the network. <strong>Testnet coins are useless and distinct from real Bitcoin or Bitcoin Gold</strong> (they are never supposed to have any real value). A testnet allows application developers and security researchers to perform experiments without having to risk losing real money or worry about breaking the main blockchain. </span><a href="https://en.bitcoin.it/wiki/Testnet"><span style="font-weight: 400;">https://en.bitcoin.it/wiki/Testnet</span></a><br />
+</br></p>
+<h4><strong>Who should use the testnet?</strong></h4>
+<p><span style="font-weight: 400;">The Bitcoin Gold testnet can be useful for people who want to test the p2p network and consensus rules before the launch of the mainnet. Some of the more common uses of the testnet are for:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Pool operators</strong>: Test the setup and the integration of Bitcoin Gold into their mining pools and test end-to-end CPU/GPU mining.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Wallet developers</strong>: Test the integration of Bitcoin Gold into their software or hardware wallets.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Exchanges</strong>: Test on-chain transactions.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Pro users</strong>: Test security features like replay protection.</span></li>
+</ul>
+<p><a href="http://btgblocks.com/testnet"><strong>Track the process</strong></a> of testnet.</p>
+<p>Click here for <a href="https://goo.gl/1k2Dtj"><strong>full technical info</strong></a> about testnet.</p>
+<p><em>Bitcoin Gold team.</em></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Update – Network stable</title>
+		<link>https://btgofficial.org/bitcoin-gold-daily-update-network-stable/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Fri, 03 Nov 2017 20:34:33 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technical]]></category>
+		<category><![CDATA[Updates]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=783</guid>
+
+					<description><![CDATA[Dear followers of Bitcoin Gold project. We are excited about the way the testnet is working. On the second day we have applied changes about the starting difficulty, some more minor settings and restarted the network. Currently we have 57 operating nodes and more than 200 mined blocks. The network is stable and all of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>Dear followers of Bitcoin Gold project.</em></p>
+<p><i>We are excited about the way the testnet is working.</i></p>
+<p>On the second day we have applied changes about the starting difficulty, some more minor settings and restarted the network. Currently we have 57 operating nodes and more than 200 mined blocks. The <strong>network is stable</strong> and all of the transactions are executed.</p>
+<p>Changes required:</p>
+<ul>
+<li>Currently we are <strong>not experiencing any issues</strong> of the network. We see that the difficulty is dynamically adjusted and the block time is between 3 minutes and 24 minutes.</li>
+</ul>
+<p>Next steps:</p>
+<ul>
+<li>We are in touch with major exchanges and wallet providers that have asked for the replay protection and the unique address format in order to support us, follow their statements and start working on integration with Bitcoin Gold. So <strong>all the users can receive their funds</strong> without any problems.</li>
+<li>We will start planning the release of the main network very soon and will come up with release date as soon as we are ready to announce it.</li>
+<li>Go to previous <a href="../../../replay-protection-development/index.html">BTG Daily Update </a>to check our <strong>complete timeline</strong>.</li>
+</ul>
+<div class="text_exposed_show">
+<p>Why a Testnet?</p>
+<p>Testnet is for testing new features before the mainnet launch. Bitcoin Gold testnet can be useful for pool operators, pro users and exchanges/wallets developers who are willing to <strong>test security</strong>, on-chain<strong> transactions</strong> and setup the integration of BTG.</p>
+<p>We want to inform all the BTG community that this is a testnet mining. The testcoins have <strong>no real value</strong>.</p>
+<p>&nbsp;</p>
+</div>
+<p><em>We take advantage of the opportunity to thank to users, pools operators, wallets and exchanges that are helping with the development and the testnet progress.  </em></p>
+<p><em>All the received help is highly appreciated! Thanks for all of the support!</em></p>
+<p><em>Bitcoin Gold community.</em></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Update &#8211; Day 1 of Testnet</title>
+		<link>https://btgofficial.org/day-1-testnet/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Thu, 02 Nov 2017 10:07:24 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=701</guid>
+
+					<description><![CDATA[Hello everybody! It was a long day and even longer night for the team of Bitcoin Gold on the start the official testnet. We targeted this test launch of the network to the pool providers and the miners as one of the vast changes in BTG is the PoW algorithm. We are really excited to share that [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>Hello everybody!</em></p>
+<p><i>It was a long day and even longer night for the team of Bitcoin Gold on the start the official testnet. We targeted this test launch of the network to the pool providers and the miners as one of the vast changes in BTG is the PoW algorithm. We are really excited to share that more than 19000 people and more than 31000 mining machines participated in the first hour of test mining on the pools supporting BTG. Based on the results that the network provided for the last 15 hours we can conclude that the first step to the launch of the testnet is successful and that the PoW change is working as expected.</i></p>
+<p>Actions required:</p>
+<ol>
+<li>We have seen that the difficulty starts too low and the block time is less than 5 seconds for the first 500 blocks and needed 15 hours to reach to 7 minutes. That is why we are rising the difficulty network start and will also adapt the difficulty change algorithm based on the data that we have observed.</li>
+<li>We have found that some nodes cannot connect to the network, the solution is already applied.</li>
+<li>DNSSeeds seem not to connect to provide node network information. We will investigate further this problem and apply a fix immediately. For now all of the pool operators and people that wants to connect to the network can use as a manually connected nodes : eunode.pool.gold and asianode.pool.gold .</li>
+<li>Because of the low difficulty we have observed large percent of orphan blocks and a lot of rejected shares. As we apply the difficulty fix, this will stop immediately.</li>
+</ol>
+<p>&nbsp;</p>
+<p>Next steps:</p>
+<ol>
+<li>On 11/02/2017 at 2 PM UTC we will do a restart of the test network. All of the mined block will be invalidated and everything will start from block 1210320. That way we are simulating the start of the main net and we can observe in detail how our blockchain works.</li>
+<li>We will request all the people to execute the following actions in order to connect to the new network *if you are not running the latest software*:<br />
+<table>
+<tbody>
+<tr>
+<td>
+<ol>
+<li>bgold-cli getinfo # that way you will check on which block are you. If block &gt;= 1210320 execute steps 2, 3 else go to 4</li>
+<li>bgold-cli getblockhash 1210320 # the result from this is used in 3. *please stop here* if the result is 00005a7a2f2b6b85ed6735d571cae7a2ce2fce898964376e77662c69aa739f49</li>
+<li>bgold-cli invalidateblock &lt;#result from 2.&gt;</li>
+<li>bgold-cli stop</li>
+<li># go to your BTCGPU folder</li>
+<li>git pull origin master</li>
+<li>make clean &amp;&amp; make</li>
+<li>bgoldd -testnet -daemon -reindex -addnode=eunode.pool.gold -addnode=asianode.pool.gold</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>Wallet provider support for BTG integration.</li>
+</ol>
+<p>&nbsp;</p>
+<p><em>Thanks for all of the support!<br />
+Bitcoin Gold team</em></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Update &#8211; Replay Protection fully implemented</title>
+		<link>https://btgofficial.org/replay-protection-development/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Wed, 01 Nov 2017 05:27:24 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=654</guid>
+
+					<description><![CDATA[In order to ensure the safety of the Bitcoin ecosystem, Bitcoin Gold has implemented full replay protection, an essential feature that protects users’ coins from being spent unintentionally. Bitcoin Gold has just implemented a solution called SIGHASH_FORK_ID replay protection. It is an effective two-way replay protection mechanism that enforces a new algorithm to calculate the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p style="padding-left: 30px;"><em style="font-size: 14px;">In order to ensure the safety of the Bitcoin ecosystem, <strong>Bitcoin Gold has implemented full replay protection</strong>, an essential feature that protects users’ coins from being spent unintentionally.</em></p>
+<p><span style="font-weight: 400;">Bitcoin Gold has just implemented a solution called <strong>SIGHASH_FORK_ID</strong> replay protection. It is an effective two-way replay protection mechanism that enforces a new algorithm to calculate the hash of a transaction so that all new Bitcoin transactions will be invalid on Bitcoin Gold blockchain and vice versa. </span><span style="font-weight: 400;">This makes <strong>replaying transactions impossible</strong>.</span></p>
+<p><a href="https://github.com/BTCGPU/BTCGPU/pull/109">https://github.com/BTCGPU/BTCGPU/pull/109</a></p>
+<h3><span style="font-weight: 400;">What is a transaction replay?</span></h3>
+<p><span style="font-weight: 400;">In the context of a Bitcoin fork, a replay happens when a transaction is valid on both sides of the fork. So a transaction can be broadcast on both chains after the fork and be a valid transaction and confirm on both. This means that if you intend on sending coins on one fork, you could accidentally end up sending your coins on the other fork as well since someone else could take your transaction and replay.</span></p>
+<h3><span style="font-weight: 400;">What is a replay protection?</span></h3>
+<p><span style="font-weight: 400;">Replay protection is a safety feature that makes sure that transactions on one chain are invalid on the other chain, thus preventing transaction replay and the possible resulting loss of funds. Replay protection can be achieved in multiple ways; anything from having a blacklisted address or output type (e.g. if an output to address X is in the transaction, consider it invalid) to changing the signature scheme to changing the transaction format entirely.</span></p>
+<h3>Timeline</h3>
+<h4>Completed</h4>
+<ul>
+<li>Equihash PoW change</li>
+<li>Difficulty adjustment algorithm</li>
+<li>Network &amp; pool integration</li>
+<li>SIGHASH_FORK_ID replay protection</li>
+<li>Unique address format</li>
+<li>Local Testnet succesful</li>
+</ul>
+<h4>Services before mainnet deployment</h4>
+<ul>
+<li>Bitcoin Gold Official Mining Guide</li>
+<li>Bitcoin Gold Blockchain Official Explorer</li>
+<li>Bitcoin Gold Official Web Forum</li>
+<li>Bitcoin Gold Wallet Guide</li>
+</ul>
+<h4>Next steps</h4>
+<ul>
+<li>Launch public testnet (*)</li>
+<li>Adjust network parameters</li>
+<li>Prepare for mainnet launch</li>
+<li>Deploy mainnet</li>
+<li>Electrum fork</li>
+<li>3rd party Wallets and Exchanges integration</li>
+<li>Decentralized mining starts</li>
+</ul>
+<p>(*) Bitcoin Gold team will deploy a public testnet opens to miners from all over the world in a few hours. To learn more about testnet, please stay tuned in #mining <a href="https://join.slack.com/t/bitcoin-gold/shared_invite/enQtMjY1MzkzMzUxNjY4LWM1YmQ4MjZhZTQxMWE1ZDQyNjA4N2QwZTkyZjYzMjhiMzdlMmVkNjQ3NzZlZDdmMDE4NWIyY2JmYzdjYmE2MzA">Slack Channel</a>.</p>
+<p>More info in next hours.</p>
+<p style="text-align: center;"><em><span style="font-weight: 400;">About</span><span style="font-weight: 400;"> BTG</span></em></p>
+<p><em><span style="font-weight: 400;">Bitcoin Gold is a community-led project to create a hard fork of Bitcoin to a new proof-of-work algorithm to make Bitcoin mining decentralized again. Satoshi Nakamoto’s idealistic vision of “one CPU one vote” has been replaced by a reality where the manufacture and distribution of mining </span><span style="font-weight: 400;">equipment</span><span style="font-weight: 400;"> has become dominated by a very small number of powerful entities, some of whom have engaged in abusive practices against individual miners and the Bitcoin network as a whole. Bitcoin Gold will provide an opportunity for countless new people around the world to participate in the mining process with widely-available consumer hardware that is manufactured and distributed by reputable mainstream corporations. A more decentralized, democratic mining infrastructure is more resilient and more in line with Satoshi’s original vision.</span></em></p>
+<p><a style="text-align: center;" href="../../../cdn-cgi/l/email-protection.html#7e0e0c1b0d0d3e1c0a1d190e0b50110c19"><span class="__cf_email__" data-cfemail="344446514747745640575344411a5b4653">[email&#160;protected]</span>    <span class="__cf_email__" data-cfemail="2e5d5b5e5e415c5a6e4c5a4d495e5b00415c49">[email&#160;protected]</span></a></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Beware of Scams and Frauds</title>
+		<link>https://btgofficial.org/not-official-websites/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Mon, 30 Oct 2017 01:45:39 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=41025</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="et_pb_section et_pb_section_1 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p><em>Hello everyone.</em></p>
+<p><em><span style="font-weight: 400;">The following table lists several potential scams that are targeting Bitcoin Gold users, some falsely claiming to be official BTG services.</span></em></p>
+<p><span style="font-weight: 400;">As the developers of the open source Bitcoin Gold project,  we want to remind everyone of the importance of never revealing your private keys, especially on an unknown website. </span><span style="font-weight: 400;">Any website that asks you to enter your private key should automatically be assumed to be a scam that will steal your coins.</span></p>
+<p><strong>We cannot possibly list all scams and frauds as we become aware of them. The crypto/financial sector is a target for fraudsters because of the value; conventional banking and modern crypto are no different in that regard. Both are inherently risky and constantly targeted for fraud by malicious third parties. No list of frauds can ever be considered comprehensive.</strong></p>
+<p>Please be careful.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_3">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><div class="cooked"></div>
+<table style="height: 753px;" width="596">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;">bitcoingoldwallet.eu</p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;">bitcoingold.codes</p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Web Scam</span></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;">bitcoingolde.org</p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Web Scam</span></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">blodkchainwallet.info</span></p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">claimbtgcpu.org</span></p>
+</td>
+<td style="text-align: center;">
+<p style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">@btcgpu</span></p>
+</td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Fake twitter account;<br /></span><span style="font-weight: 400;">advertises claimbtgcpu.org</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">btggpu.org</span></p>
+</td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Web Scam</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">btgolds.org</span></p>
+</td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Web Scam</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">electrongold.org</span></p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">btcgwallet</span></p>
+</td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">mybtggwallet</span></p>
+</td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Scam Wallet</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">“getbtcgpu”</span></p>
+</td>
+<td style="text-align: center;"><span style="font-weight: 400;">Web scam</span> <span style="font-weight: 400;">@btcgpu</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">“btgolds”</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Web scam</span> <span style="font-weight: 400;">@claimbtgold</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">@bitcoingold_</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Fake Twitter account</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">btcgpu.me</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Scam wallet</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">Bitcoin Gold Support<br />https://www.facebook.com/Bitcoin-Gold-Support</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Facebook &#8211;<br />Not official support page</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">Bitcoin Gold Page<br />tps://www.facebook.com/Bitcoincrypto2017</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Facebook &#8211;<br />Not official Fanpage</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span style="font-weight: 400;">Bitcoin Gold Page<br />tps://www.facebook.com/bitcoingold</span></td>
+<td>
+<p style="text-align: center;"><span style="font-weight: 400;">Facebook &#8211;<br />Not Official, ran &#8220;Sweepstakes&#8221; Scam</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Dev Update 29.10.2017</title>
+		<link>https://btgofficial.org/bitcoin-gold-daily-dev-update-28-10-2017/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Sun, 29 Oct 2017 23:07:50 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technical]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=629</guid>
+
+					<description><![CDATA[Hello everybody! Here is our second daily dev update. Build procedure H4x has reviewed and merged a pull request from JockerCatz that is giving useful information for building on Linux. CI platform Minor updates on the Travis CI made by H4x. Unique address format H4x added address conversion functionality and more test cases for the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>Hello everybody!</em></p>
+<p><em>Here is our second daily dev update.</em></p>
+<ol>
+<li><strong>Build procedure<br />
+</strong>H4x has reviewed and merged a pull request from JockerCatz that is giving useful information for building on Linux.</li>
+<li><strong>CI platform<br />
+</strong>Minor updates on the Travis CI made by H4x.</li>
+<li><strong>Unique address format<br />
+</strong>H4x added address conversion functionality and more test cases for the BTG unique address format. (BTG address prefixes are &#8220;G&#8221; and &#8220;A&#8221;)</li>
+<li><strong>Testnet<br />
+</strong>Testnet has been successfully synced on Martin&#8217;s MacBook. But on slower machines, as soon as the fork block is synced, the process of block validation stops. This will not be a problem when BTG nodes are available.</li>
+<li><strong>Mining<br />
+</strong>Martin has started the modification of the node-stratum in order to provide a solution for the pool providers and the miners. The main problem is the change of the protocol that is introduced in BTG. The first 4 bytes of the reserved header field from zcash blockformat are actually the block height. Currently the protocol is being tested.</li>
+</ol>
+<p>&nbsp;</p>
+<p><em>We want you to know that we expect the public testnet to be started on November 1st!</em></p>
+<p><em>Do not hesitate to Ask us anything on Slack: <a href="https://join.slack.com/t/bitcoin-gold/shared_invite/enQtMjYxMDU5NzQzNjUyLTJlODRhYjg2NGRmMzE4ZjBkZjlmOGM0ZDc0OGUyMDZmMTVlY2RjZDc2OWQ0NWY2NWI0ODcyZjYwZTVhMjQ5OTE">Join Slack</a><br />
+Follow, like, retweet on Twitter: <a href="https://twitter.com/bitcoingold">BTG on Twitter</a></em></p>
+<p>&nbsp;</p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Bitcoin Gold Daily Dev Update 27.10.2017</title>
+		<link>https://btgofficial.org/bitcoin-gold-daily-dev-update-27-10-2017/</link>
+		
+		<dc:creator><![CDATA[CryptoDJ]]></dc:creator>
+		<pubDate>Fri, 27 Oct 2017 09:43:26 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technical]]></category>
+		<guid isPermaLink="false">https://btgofficial.org/?p=590</guid>
+
+					<description><![CDATA[Hello everybody! Here is the first daily update on Bitcoin Gold development. We have decided that this is best way for everyone to stay up to date with all the important development progress that is taking place. These updates may not happen literally every day, but we will aim for at least three to four [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p style="text-align: left;"><em>Hello everybody!</em></p>
+<p><i>Here is the first daily update on Bitcoin Gold development. We have decided that this is best way for everyone to stay up to date with all the important development progress that is taking place. These updates may not happen literally every day, but we will aim for at least three to four updates per week.</i></p>
+<ol>
+<li><strong>Replay protection</strong><br />
+We have spent several hours on the pull request for replay protection: https://github.com/BTCGPU/BTCGPU/pull/55. This method of replay protection is sufficient to keep all transactions safe from replay attacks, and we are very likely to merge this pull request in the upcoming days. In addition to that pull request, we received another pull request from an anonymous contributor for a different implementation of replay protection: https://github.com/BTCGPU/BTCGPU/pull/83. We will award him or her the bounty because the code meets the requirements originally described in the bounty: https://github.com/BTCGPU/BTCGPU/issues/51.  We are very encouraged with the success our bounty program has already achieved in the very early days of this project.</li>
+<li><strong>Unique Address Format<br />
+</strong>H4x has decided that Bitcoin Gold addresses must start with the letters G and A in order to clearly distinguish from Bitcoin addresses, which start with 1 and 3. We hope this measure will prevent people from mistakenly sending coins on the wrong side of the fork. Moreover, in the wallets supporting BTG there must be a safety feature that doesn&#8217;t let people send money to incorrect wallets. The pull request is going to be merged today: <a href="https://github.com/BTCGPU/BTCGPU/pull/80">https://github.com/BTCGPU/BTCGPU/pull/80</a>.</li>
+<li><strong>Testnet<br />
+</strong>Martin has spent most of his time working on the testnet. Currently the main problem is that the flags for initial sync never get to a completed state, because the way the Bitcoin Gold client is currently made is to be able to sync the pre-fork legacy blockchain from the Bitcoin nodes. We think this is the best way to make sure that we are providing the best connection to everyone. But the unfortunate consequence of this method is that the height shown in the legacy BTC nodes is much higher than the height of the BTG fork. So we are currently implementing a logic to protect from this.</li>
+<li><strong>Other</strong><br />
+A lot of people are asking various questions about the Bitcoin Gold dev process and the way BTG works, and we put great efforts to answer all of them.<br />
+We have a lot of time wasted by people who are publishing &#8220;hate&#8221; topics with attacks on Bitcoin Gold, and the only way to refute the claims is to provide facts. Each claim shall be based on facts, if there are no facts presented, it is just a derogatory attack. We are doing our best to provide stable and secure solution for everyone, to support all the mining pools, the wallet providers, and the exchanges.</li>
+</ol>
+<p><em>All the Bitcoin Gold Team is working hard and we are confident in the success of Bitcoin Gold. </em></p>
+<span class="et_bloom_bottom_trigger"></span>]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
